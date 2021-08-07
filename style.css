@@ -16,8 +16,7 @@
     display: inline;
     align-items: center;
     width: 275px;
-    padding-left: 50%;
-    padding-right: 50%;
+    padding-left: 25%;
 }
 
 #text::selection {
@@ -43,7 +42,7 @@
     border: 1px;
     color: #fff;
     display: inline;
-    margin-left: 79%;
+    margin-left: 45%;
 }
 
 #copy:hover {background-color: #3e8e41}
