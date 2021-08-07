@@ -1,5 +1,6 @@
 #container {
     background-color: #fff;
+    display: inline-flexbox;
 }
 
 #text {
@@ -21,4 +22,9 @@
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(1px);
+  }
+
+  #text #copy {
+      display: inline-flex;
+      flex-wrap: nowrap;
   }
