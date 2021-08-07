@@ -10,16 +10,20 @@
   
   <div id="container">
     <input id="text" type="text" value="spa@aguasdesaopedro.sp.gov.br" readonly>
-    <button id="copy" type="button">Copiar</button>
+    <button id="copy"  type="button">Copiar</button>
   </div>
+
+  
 
   <script type="text/javascript">
     const textInput = document.getElementById('text');
     const copyButton = document.getElementById('copy');
 
     copyButton.addEventListener('click', ()=> {
-      textInput.select();
+      textInput.select()
+      textInput.setSelectionRange(0, 29)
       document.execCommand('copy');
+
     });
   </script>
 
