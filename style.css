@@ -11,24 +11,28 @@
 }
 
 #text {
+    position: relative;
     font-size: 18px;
     border: none;
-    width: 100%;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
     display: inline;
     align-items: center;
+    width: 275px;
+}
+
+#text::selection {
+    border: 0;
+    outline: 0;
+    outline:none!important;
+    background-color: white!important;
 }
 
 #text:focus {
     border: 0;
     outline: 0;
     outline:none!important;
-}
-
-#text #copy {
-    display: inline-flex;
-    flex-wrap: nowrap;
+    background-color: white!important;
 }
 
 #copy {
@@ -39,8 +43,7 @@
     color: #fff;
     font-size: 14px;
     justify-content: center;
-    margin-left: 56%;
-    margin-right: 50%;
+    display: inline;
 }
 
 #copy:hover {background-color: #3e8e41}
