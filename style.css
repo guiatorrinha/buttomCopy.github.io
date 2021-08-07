@@ -1,11 +1,7 @@
 #container {
-    width: 14%;
-    height: 15%;
+    width: 275px;
+    height: 275px;
     text-align: center;
-    padding: 10%;
-    padding-top: 0%;
-    padding-right: 0%;
-    padding-left: 0%;
 }
 
 #pix {
@@ -17,7 +13,6 @@
     position: relative;
     font-size: 18px;
     border: none;
-    padding-right: 1%;
     display: inline;
     align-items: center;
     width: 275px;
@@ -38,13 +33,13 @@
 }
 
 #copy {
+    height: 50px;
+    width: 100px;
     background-color: #a0bf38;
     border-radius: 8px;
-    font-size: 12px;
+    font-size: 20px;
     border: 1px;
     color: #fff;
-    font-size: 14px;
-    justify-content: center;
     display: inline;
 }
 
