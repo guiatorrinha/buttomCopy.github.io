@@ -1,20 +1,22 @@
 #container {
-    background-color: khaki;
+    background-color: #fff;
 }
 
 #text {
     font-size: 14px;
+    border: none;
 }
 
 #copy {
     background-color: #a0bf38;
     border-radius: 8px;
-    border-color: #457a91;
+    border: 1px;
     color: #fff;
     font-size: 14px;
 }
 
 #copy:hover {background-color: #3e8e41}
+
 #copy:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
