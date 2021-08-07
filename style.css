@@ -1,6 +1,6 @@
 #container {
     width: 275px;
-    height: 275px;
+    height: 120px;
     text-align: center;
 }
 
@@ -16,6 +16,8 @@
     display: inline;
     align-items: center;
     width: 275px;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 #text::selection {
@@ -33,7 +35,7 @@
 }
 
 #copy {
-    height: 50px;
+    height: 47px;
     width: 100px;
     background-color: #a0bf38;
     border-radius: 8px;
@@ -41,6 +43,7 @@
     border: 1px;
     color: #fff;
     display: inline;
+    margin-left: 79%;
 }
 
 #copy:hover {background-color: #3e8e41}
