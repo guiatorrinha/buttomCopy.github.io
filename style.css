@@ -1,0 +1,13 @@
+#container {
+    background-color: khaki;
+}
+
+#text {
+    font-size: 16px;
+}
+
+#copy {
+    border-radius: 10px;
+    border-color: blue;
+    background-color: blueviolet;
+}

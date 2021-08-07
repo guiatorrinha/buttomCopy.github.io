@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>CopyPaste</title>
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div id="container">
+    <input id="text" type="text" value="PIX bla bla bla" readonly>
+    <button id="copy" type="button">Copuiar</button>
+  </div>
+
+  <script type="text/javascript">
+    const textInput = document.getElementById('text');
+    const copyButton = document.getElementById('copy');
+
+    copyButton.addEventListener('click', ()=> {
+      textInput.select();
+      document.execCommand('copy');
+    });
+  </script>
+
+</body>
+</html>
