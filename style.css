@@ -4,13 +4,14 @@
 }
 
 #text {
-    font-size: 14px;
+    font-size: 12px;
     border: none;
 }
 
 #copy {
     background-color: #a0bf38;
     border-radius: 8px;
+    font-size: 14px;
     border: 1px;
     color: #fff;
     font-size: 14px;
