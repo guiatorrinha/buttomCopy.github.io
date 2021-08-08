@@ -19,7 +19,7 @@
     border: none;
     width: 275px;
     height: 40px;
-    padding-left: 14%;
+    padding-left: 18%;
 }
 
 #text::selection {
@@ -45,7 +45,7 @@
     border: 1px;
     color: #fff;
     display: inline;
-    margin-left: 24%;
+    margin-left: 35%;
 }
 
 #copy:hover {background-color: #3e8e41}
